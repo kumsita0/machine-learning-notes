@@ -76,13 +76,13 @@ in data without being given the correct answers.
 ### The easiest way to remember it
 Think about students in a classroom:
 
-Supervised learning:
+##### Supervised learning:
 
 Teacher says: "These students are beginners, and these students are advanced."
 
 The model learns from the labels.
 
-Unsupervised learning:
+##### Unsupervised learning:
 
 Teacher gives the model information about all students but doesn't say who is beginner or advanced.
 
