@@ -1,34 +1,73 @@
-# Linear Regression
+# Unsupervised Learning
 
-## What is Linear Regression?
+## What is Unsupervised Learning?
 
-Linear Regression is a supervised learning algorithm used
-to predict a continuous numerical value.
+Unsupervised Learning is a type of machine learning where
+the model learns patterns from data without being given
+the correct answers or labels.
 
-It tries to find a relationship between input features
-and the target value.
+The model tries to discover hidden patterns, groups,
+or relationships in the data.
 
 ## Key Concepts
 
-- Feature — input used to make a prediction
-- Target — value we want to predict
-- Slope — how much the output changes when the input changes
-- Intercept — starting value of the prediction
-- Prediction — estimated output
-- Regression — predicting numerical values
+- Unlabeled Data — data without predefined answers
+- Clustering — grouping similar data points together
+- Pattern — relationship discovered in the data
+- Similarity — how alike two data points are
+- Group — collection of similar data points
+- Dimensionality Reduction — reducing the number of features
+- Anomaly Detection — finding unusual data points
 
 ## Example
 
-If we want to predict house prices:
+Suppose a store has information about its customers:
 
-- 1000 sq ft → $200,000
-- 1500 sq ft → $275,000
-- 2000 sq ft → $350,000
+- Customer A → spends $500, visits frequently
+- Customer B → spends $450, visits frequently
+- Customer C → spends $50, visits rarely
+- Customer D → spends $70, visits rarely
 
-The model learns the relationship between house size
-and price and can predict the price of a new house.
+We don't tell the model which customers belong together.
+
+The model may discover two groups:
+
+- Group 1 → Customers who spend a lot and visit frequently
+- Group 2 → Customers who spend less and visit rarely
+
+The model discovered these groups by looking for
+similarities in the data.
+
+## Common Algorithms
+
+- K-Means Clustering
+- Hierarchical Clustering
+- DBSCAN
+- Principal Component Analysis (PCA)
+
+## Supervised vs Unsupervised Learning
+
+### Supervised Learning
+
+The data has labels:
+
+- Email → Spam
+- Email → Not Spam
+
+The model learns to predict the labels.
+
+### Unsupervised Learning
+
+The data has no labels:
+
+- Customer A
+- Customer B
+- Customer C
+- Customer D
+
+The model tries to discover groups or patterns by itself.
 
 ## My Takeaway
 
-Linear regression learns a relationship between input features
-and a continuous numerical target.
+Unsupervised learning finds patterns, groups, or relationships
+in data without being given the correct answers.
