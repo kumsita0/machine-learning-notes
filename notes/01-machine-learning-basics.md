@@ -29,3 +29,64 @@ and price and predict the price of a new house.
 
 Machine learning allows computers to learn patterns from
 examples rather than requiring every rule to be explicitly programmed.
+
+
+
+
+Machine Learning Basics
+What is Machine Learning?
+
+Machine Learning (ML) is a way of building systems that learn patterns from data and use those patterns to make predictions or decisions.
+
+Instead of programming every rule manually, we provide examples and let the model learn from them.
+
+Core Ideas
+
+Data — examples used for learning.
+
+Features — input information given to the model.
+
+Target — the value we want the model to predict.
+
+Model — a mathematical system that learns patterns.
+
+Training — the process of learning from data.
+
+Prediction — the output produced by a trained model.
+
+Example
+
+Suppose we want to predict house prices.
+
+Size	Price
+1,000 sq ft	$200,000
+1,500 sq ft	$275,000
+2,000 sq ft	$350,000
+
+The model can learn the relationship between house size and price and use it to estimate the price of another house.
+
+Important Question
+
+The goal is not simply to memorize the training examples.
+
+A useful model should learn patterns that generalize to new data.
+
+Key Terms
+
+Dataset
+
+Feature
+
+Target
+
+Model
+
+Training
+
+Prediction
+
+Generalization
+
+My Takeaway
+
+Machine learning allows computers to learn patterns from examples and use those patterns to make predictions on new data.
