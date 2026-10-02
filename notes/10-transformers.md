@@ -1,56 +1,34 @@
-Transformers
-What is a Transformer?
+# Transformers
 
-A Transformer is a neural network architecture designed to process sequences using attention mechanisms.
+## What is a Transformer?
 
-Transformers became extremely important in modern NLP and are the foundation of most modern LLMs.
+A Transformer is a neural network architecture designed
+to process sequences of data using attention.
 
-Core Idea
+Transformers are the foundation of most modern
+Large Language Models.
 
-Instead of processing every word strictly one after another, the Transformer can consider relationships between tokens.
+## Key Concepts
 
-Input Tokens
-     ↓
-Embeddings
-     ↓
-Attention
-     ↓
-Neural Network Layers
-     ↓
-Output
+- Transformer — neural network architecture
+- Token — piece of input text
+- Embedding — numerical representation of a token
+- Attention — mechanism for understanding relationships
+- Self-Attention — attention between tokens in the same input
+- Context — surrounding information used by the model
 
-Why Transformers Matter
+## Example
 
-Transformers can efficiently process relationships between tokens and scale to very large models and datasets.
+Consider the sentence:
 
-Example
+> The dog chased the ball because it was excited.
 
-Consider:
+To understand what "it" refers to, the model needs
+to consider the relationship between the words.
 
-The dog chased the ball because it was excited.
+Attention helps the Transformer represent these relationships.
 
+## My Takeaway
 
-To understand the sentence, the model needs to represent relationships between words such as:
-
-"it" → "dog"
-
-
-Attention helps the model represent these relationships.
-
-Key Components
-
-Token embeddings
-
-Positional information
-
-Self-attention
-
-Feed-forward networks
-
-Layer normalization
-
-Residual connections
-
-My Takeaway
-
-Transformers use attention to model relationships between tokens and form the foundation of modern LLMs.
+Transformers use attention to understand relationships
+between different parts of an input sequence.
