@@ -1,73 +1,35 @@
-Large Language Models
-What is an LLM?
+# Large Language Models
+
+## What is an LLM?
 
 LLM stands for Large Language Model.
 
-An LLM is a neural network trained on large amounts of text to learn patterns in language.
+An LLM is a large neural network trained on large amounts
+of text to learn patterns in human language.
 
-Core Idea
+## Key Concepts
 
-At a basic level, a language model learns to predict the next token.
+- LLM — Large Language Model
+- Token — piece of text processed by the model
+- Parameter — learned value inside the model
+- Training — process of learning from data
+- Inference — using the trained model to generate output
+- Context — information provided to the model
+- Prompt — instructions or input given to the model
 
-For example:
+## Example
 
-The sky is
+If we give an LLM:
 
+> The sky is
 
-The model might assign high probability to:
+The model may predict:
 
-blue
+> blue
 
+It then continues predicting tokens based on the context.
 
-It then continues generating tokens based on the context.
+## My Takeaway
 
-Tokens
-
-LLMs process text as tokens rather than directly processing complete sentences.
-
-A token can be:
-
-A word
-
-Part of a word
-
-Punctuation
-
-Another piece of text
-
-Training
-
-During training, the model sees text and learns to predict tokens.
-
-Its parameters are adjusted when its predictions differ from the training data.
-
-Example
-
-Prompt:
-
-Machine learning is a field of
-
-
-Possible continuation:
-
-artificial intelligence.
-
-Important Concepts
-
-Tokens
-
-Embeddings
-
-Parameters
-
-Training
-
-Inference
-
-Context
-
-Transformer
-
-My Takeaway
-
-An LLM is a large neural network trained to model patterns in language and generate text one token at a time.
+An LLM learns patterns from large amounts of text
+and uses those patterns to generate language.
