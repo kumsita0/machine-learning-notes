@@ -1,81 +1,34 @@
-Neural Networks
-What is a Neural Network?
+# Classification
 
-A neural network is a machine learning model made of interconnected layers of artificial neurons.
+## What is Classification?
 
-A basic neural network contains:
+Classification is a supervised learning task where a model
+predicts a category or class.
 
-Input Layer
-     ↓
-Hidden Layer
-     ↓
-Output Layer
+The output is usually one of several possible labels.
 
-Neurons
+## Key Concepts
 
-A neuron receives numbers, applies weights and a bias, and produces an output.
+- Class — category that the model predicts
+- Label — correct category for an example
+- Binary Classification — two possible classes
+- Multiclass Classification — more than two possible classes
+- Prediction — class selected by the model
+- Accuracy — percentage of correct predictions
 
-Conceptually:
+## Example
 
-inputs → weighted calculation → activation → output
+If we build an email spam classifier:
 
-Layers
-Input Layer
+- Email 1 → Spam
+- Email 2 → Not Spam
+- Email 3 → Spam
+- Email 4 → Not Spam
 
-Receives the input features.
+The model learns from these examples and predicts
+whether a new email is spam or not.
 
-Hidden Layers
+## My Takeaway
 
-Transform the information and learn useful patterns.
-
-Output Layer
-
-Produces the final prediction.
-
-Example
-
-For image classification:
-
-Image
- ↓
-Neural Network
- ↓
-Cat: 0.90
-Dog: 0.10
-
-
-The model predicts that the image is likely a cat.
-
-Training
-
-Neural networks learn by:
-
-Making predictions.
-
-Measuring error using a loss function.
-
-Calculating gradients.
-
-Updating weights.
-
-Repeating the process.
-
-Key Terms
-
-Neuron
-
-Weight
-
-Bias
-
-Layer
-
-Activation function
-
-Loss
-
-Gradient
-
-My Takeaway
-
-Neural networks learn complex patterns by adjusting weights across multiple interconnected layers.
+Classification is used when the model needs to predict
+a category rather than a continuous numerical value.
