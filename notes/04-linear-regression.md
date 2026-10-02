@@ -1,66 +1,34 @@
-Classification
-What is Classification?
+# Linear Regression
 
-Classification is a supervised learning task where the model predicts a category or class.
+## What is Linear Regression?
 
-Unlike regression, the output is usually a discrete label.
+Linear Regression is a supervised learning algorithm used
+to predict a continuous numerical value.
 
-Examples
+It tries to find a relationship between input features
+and the target value.
 
-Spam / Not Spam
+## Key Concepts
 
-Cat / Dog
+- Feature — input used to make a prediction
+- Target — value we want to predict
+- Slope — how much the output changes when the input changes
+- Intercept — starting value of the prediction
+- Prediction — estimated output
+- Regression — predicting numerical values
 
-Fraud / Not Fraud
+## Example
 
-Positive / Negative
+If we want to predict house prices:
 
-Example
+- 1000 sq ft → $200,000
+- 1500 sq ft → $275,000
+- 2000 sq ft → $350,000
 
-Suppose we build a spam detector.
+The model learns the relationship between house size
+and price and can predict the price of a new house.
 
-Email
-  ↓
-Classification Model
-  ↓
-Spam / Not Spam
+## My Takeaway
 
-
-The model learns from previously labeled emails.
-
-Common Algorithms
-
-Logistic Regression
-
-Decision Trees
-
-Random Forest
-
-Support Vector Machines
-
-Neural Networks
-
-Evaluation
-
-Common classification metrics include:
-
-Accuracy
-
-Precision
-
-Recall
-
-F1 score
-
-Python
-from sklearn.linear_model import LogisticRegression
-
-model = LogisticRegression()
-
-model.fit(X_train, y_train)
-
-prediction = model.predict(X_test)
-
-My Takeaway
-
-Classification predicts categories. It is commonly used when the answer belongs to a finite set of classes.
+Linear regression learns a relationship between input features
+and a continuous numerical target.
