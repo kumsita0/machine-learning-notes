@@ -1,58 +1,36 @@
-Fine-Tuning
-What is Fine-Tuning?
+# Fine-Tuning
 
-Fine-tuning is the process of taking an existing pretrained model and training it further on a specific dataset or task.
+## What is Fine-Tuning?
 
-Instead of training a model from scratch, we start with an already trained model.
+Fine-Tuning is the process of taking an existing pretrained
+model and training it further on a specific dataset or task.
 
-Basic Process
-Pretrained Model
-      ↓
-Task-Specific Data
-      ↓
-Fine-Tuning
-      ↓
-Specialized Model
+Instead of starting from zero, we start with a model
+that has already learned general patterns.
 
-Example
+## Key Concepts
+
+- Pretrained Model — model already trained on large datasets
+- Fine-Tuning — additional training for a specific purpose
+- Training Data — examples used for specialization
+- Parameters — values adjusted during training
+- Specialized Model — model adapted for a particular task
+
+## Example
 
 Suppose we have a general language model.
 
-We want it to consistently respond in a specific style.
+We want it to respond in a specific style.
 
-We can create training examples:
+We can provide many examples of:
 
-Input: Explain this concept.
-Output: Explain it using a short technical explanation.
+- User question → Desired response
+- User question → Desired response
+- User question → Desired response
 
+The model can be fine-tuned using these examples.
 
-Many examples like this can be used to adapt the model.
+## My Takeaway
 
-Fine-Tuning vs RAG
-Fine-Tuning
-
-Changes the model's parameters.
-
-Useful for:
-
-Behavior
-
-Style
-
-Task specialization
-
-RAG
-
-Provides external information during inference.
-
-Useful for:
-
-Knowledge retrieval
-
-Documents
-
-Frequently changing information
-
-My Takeaway
-
-Fine-tuning adapts an existing model by training it further on specialized data, while RAG supplies relevant information to the model at runtime.
+Fine-tuning adapts an existing model to perform better
+for a specific task, behavior, or style.
