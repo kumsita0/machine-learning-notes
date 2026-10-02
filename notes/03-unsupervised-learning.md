@@ -71,3 +71,23 @@ The model tries to discover groups or patterns by itself.
 
 Unsupervised learning finds patterns, groups, or relationships
 in data without being given the correct answers.
+
+
+### The easiest way to remember it
+Think about students in a classroom:
+
+Supervised learning:
+
+Teacher says: "These students are beginners, and these students are advanced."
+
+The model learns from the labels.
+
+Unsupervised learning:
+
+Teacher gives the model information about all students but doesn't say who is beginner or advanced.
+
+The model looks at the information and discovers groups itself.
+
+In one sentence:
+Supervised = learn from labeled examples.
+Unsupervised = find patterns in unlabeled data.
