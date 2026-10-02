@@ -1,53 +1,31 @@
-Attention
-What is Attention?
+# Attention
 
-Attention is a mechanism that allows a neural network to determine which parts of the input are relevant when processing a particular token.
+## What is Attention?
 
-Core Idea
+Attention is a mechanism that allows a model to focus
+on the most relevant parts of the input when processing
+a particular token.
 
-Not every word in a sentence is equally important for understanding every other word.
+## Key Concepts
 
-Attention allows the model to assign different levels of importance to different tokens.
+- Attention — determines which information is important
+- Query — information a token is looking for
+- Key — information used to compare tokens
+- Value — information passed forward
+- Attention Score — measures how relevant tokens are
+- Self-Attention — tokens attend to other tokens in the same sequence
 
-Example
+## Example
 
 Consider:
 
-The animal didn't cross the road because it was tired.
+> The dog chased the ball because it was excited.
 
+When processing the word "it", the model can use attention
+to consider nearby words and relationships to understand
+what "it" refers to.
 
-When processing:
+## My Takeaway
 
-"it"
-
-
-the model needs to consider the surrounding words to understand what "it" refers to.
-
-Attention helps represent these relationships.
-
-Query, Key, and Value
-
-Self-attention uses three important concepts:
-
-Query — what information am I looking for?
-
-Key — what information does each token represent?
-
-Value — what information should be passed forward?
-
-These are used to calculate attention scores.
-
-Simplified Process
-Tokens
-  ↓
-Queries, Keys, Values
-  ↓
-Attention Scores
-  ↓
-Weighted Information
-  ↓
-Updated Representations
-
-My Takeaway
-
-Attention allows a model to focus on relevant parts of the context when processing each token.
+Attention allows a model to focus on relevant information
+and understand relationships between tokens.
