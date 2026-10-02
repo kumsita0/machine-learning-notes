@@ -1,80 +1,35 @@
-Supervised Learning
-What is Supervised Learning?
+# Supervised Learning
 
-Supervised learning is a type of machine learning where the training data contains both:
+## What is Supervised Learning?
 
-Inputs
+Supervised Learning is a type of machine learning where a model
+learns from data that already has the correct answers.
 
-Correct outputs (labels)
+The model learns the relationship between inputs and outputs.
 
-The model learns the relationship between them.
+## Key Concepts
 
-Two Major Types
-Regression
+- Input — information given to the model
+- Label — correct answer for an example
+- Training Data — examples used to train the model
+- Model — system that learns the patterns
+- Prediction — answer produced by the model
+- Regression — predicting a numerical value
+- Classification — predicting a category
 
-Regression predicts a continuous numerical value.
+## Example
 
-Examples:
+If we want to predict whether an email is spam:
 
-House price
+- Email 1 → Spam
+- Email 2 → Not Spam
+- Email 3 → Spam
+- Email 4 → Not Spam
 
-Temperature
+The model learns patterns from these labeled examples
+and uses them to classify new emails.
 
-Salary
+## My Takeaway
 
-Sales revenue
-
-Classification
-
-Classification predicts a category.
-
-Examples:
-
-Spam or not spam
-
-Cat or dog
-
-Fraud or legitimate
-
-Disease or no disease
-
-Example
-
-For email classification:
-
-Email → Model → Spam / Not Spam
-
-
-The model learns from many emails that have already been labeled.
-
-Training Process
-
-Give the model labeled examples.
-
-Model makes a prediction.
-
-Compare prediction with the correct answer.
-
-Calculate the error.
-
-Adjust the model.
-
-Repeat.
-
-Key Terms
-
-Labeled data
-
-Regression
-
-Classification
-
-Training set
-
-Test set
-
-Prediction
-
-My Takeaway
-
-Supervised learning learns from examples where the correct answer is already known.
+Supervised learning teaches a model using examples where
+the correct answer is already known.
