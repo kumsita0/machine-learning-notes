@@ -1,72 +1,34 @@
-Linear Regression
-What is Linear Regression?
+# Linear Regression
 
-Linear regression is a supervised learning algorithm used to predict a continuous numerical value.
+## What is Linear Regression?
 
-It tries to find a relationship between input features and a target.
+Linear Regression is a supervised learning algorithm used
+to predict a continuous numerical value.
 
-Basic Formula
+It tries to find a relationship between input features
+and the target value.
 
-For one feature:
+## Key Concepts
 
-y = mx + b
+- Feature — input used to make a prediction
+- Target — value we want to predict
+- Slope — how much the output changes when the input changes
+- Intercept — starting value of the prediction
+- Prediction — estimated output
+- Regression — predicting numerical values
 
+## Example
 
-Where:
+If we want to predict house prices:
 
-y = predicted value
+- 1000 sq ft → $200,000
+- 1500 sq ft → $275,000
+- 2000 sq ft → $350,000
 
-x = input
+The model learns the relationship between house size
+and price and can predict the price of a new house.
 
-m = slope
+## My Takeaway
 
-b = intercept
-
-Example
-
-Suppose we predict salary from years of experience.
-
-Years of Experience → Salary
-1                  → $50,000
-3                  → $70,000
-5                  → $90,000
-
-
-The model tries to find a line that represents the relationship.
-
-For example:
-
-salary = 10,000 × experience + 40,000
-
-
-For 4 years:
-
-salary = 10,000 × 4 + 40,000
-       = $80,000
-
-Python
-from sklearn.linear_model import LinearRegression
-
-model = LinearRegression()
-
-model.fit(X_train, y_train)
-
-prediction = model.predict(X_test)
-
-Key Terms
-
-Feature
-
-Target
-
-Slope
-
-Intercept
-
-Prediction
-
-Regression
-
-My Takeaway
-
-Linear regression learns a mathematical relationship between input features and a continuous target.
+Linear regression learns a relationship between input features
+and a continuous numerical target.
