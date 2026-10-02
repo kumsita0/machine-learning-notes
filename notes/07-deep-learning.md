@@ -1,65 +1,32 @@
-Deep Learning
-What is Deep Learning?
+# Deep Learning
 
-Deep learning is a branch of machine learning that uses neural networks with multiple layers.
+## What is Deep Learning?
 
-The word "deep" refers to the number of layers in the network.
+Deep Learning is a type of machine learning that uses
+neural networks with multiple layers.
 
-Why Deep Learning?
+These layers allow the model to learn increasingly
+complex patterns from data.
 
-Traditional machine learning often depends heavily on manually designed features.
+## Key Concepts
 
-Deep learning can learn useful representations directly from raw or relatively unprocessed data.
+- Neural Network — model made of connected neurons
+- Layer — level of processing in a neural network
+- Training — process of learning from data
+- Backpropagation — method used to update model weights
+- Gradient Descent — method used to reduce errors
+- GPU — hardware commonly used to train deep learning models
 
-Applications
+## Example
 
-Computer vision
+When recognizing a face in an image:
 
-Speech recognition
+- Early layers may learn edges
+- Middle layers may learn shapes
+- Later layers may learn facial features
+- Final layer predicts the identity or category
 
-Natural language processing
+## My Takeaway
 
-Recommendation systems
-
-Generative AI
-
-Large Language Models
-
-Example
-
-For image recognition:
-
-Raw Image
-   ↓
-Neural Network
-   ↓
-Edges
-   ↓
-Shapes
-   ↓
-Objects
-   ↓
-Prediction
-
-
-The network can learn increasingly complex representations through its layers.
-
-Important Concepts
-
-Neural networks
-
-Backpropagation
-
-Gradient descent
-
-Activation functions
-
-Loss functions
-
-Optimizers
-
-GPUs
-
-My Takeaway
-
-Deep learning uses multilayer neural networks to learn increasingly complex patterns from data.
+Deep learning uses neural networks with many layers
+to automatically learn complex patterns from data.
