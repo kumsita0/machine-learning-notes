@@ -77,15 +77,11 @@ in data without being given the correct answers.
 Think about students in a classroom:
 
 ##### Supervised learning:
-
 Teacher says: "These students are beginners, and these students are advanced."
-
 The model learns from the labels.
 
 ##### Unsupervised learning:
-
 Teacher gives the model information about all students but doesn't say who is beginner or advanced.
-
 The model looks at the information and discovers groups itself.
 
 In one sentence:
