@@ -73,6 +73,8 @@ Unsupervised learning finds patterns, groups, or relationships
 in data without being given the correct answers.
 
 
+## NOTE:- 
+
 ### The easiest way to remember it
 Think about students in a classroom:
 
